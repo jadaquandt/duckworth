@@ -1,0 +1,84 @@
+body {
+    background: rgba(0, 0, 0, .5);
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  html { 
+    background-color: black;
+    background: url(/Kendrick/img/pimp.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+header {
+  background-color: black;
+}
+
+#nameTop {
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, .8);
+    font-size: 23px;
+    letter-spacing: 1.5px;
+    padding: 30px 0 15px 0;
+}
+
+#navigationBar {
+  border-top: 1px solid grey;
+}
+
+i {
+  color: white
+}
+
+#socialIcons {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.socialIconDivs {
+  color: grey;
+}
+
+/* #socialNav {
+      color: rgba(255, 255, 255, 0.986);
+      list-style-type: none;
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      padding: 1%;
+      cursor: pointer;
+      margin-left: 10px;
+      margin-bottom: 20px;
+      transition: ease .3s;
+    } */
+
+  /* .social:hover {
+        color: rgba(209, 191, 118, 1);
+      }
+  
+  .social:hover > li {
+    opacity: 0.5;
+  }
+  
+  .social:hover > li:hover {
+    opacity: 1;
+  } */
+
+  #latestVideo {
+    background-color: rgba(19, 18, 18, 0.678);
+  }
+
+  #videoInfo {
+    color: lightgray;   
+  }
+
+  #videoInfo p {
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+  }
